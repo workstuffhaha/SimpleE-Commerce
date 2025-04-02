@@ -1,59 +1,24 @@
-# AngularEcomm
+# Simple E-commerce Website
+This is just a practice project to understand the concepts of Angular more and achieve more hands on practice.
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.1.
+The simple services that this Website has is : 
+    - Products and their information is fetched from an API and displayed in cards 
+    - You can view the product prices, the product name, and if its in stock or not
+    - There is a button to "Add to Cart" for every product in the card.
+    - On the top right corner of the page, there is a Cart button with the updated number of items that you have selected.
+    - The Cart button routes you to the cart summary page, which displays the buy summary.
+    - The total of the cart updates on updation of the items in the cart.
 
-## Development server
+Angular concepts used : 
+    - Components
+    - Services and Dependency Injection 
+    - API calls using fetch
+    - Creating a Product Model - interfaces 
 
-To start a local development server, run:
+Further development that could be made on this website for a more real world application : 
+    - Usage of a component library
+    - Loaders, Notifications
+    - Server Side Integration + Payments
+    - Forms for consumer info
+    - Other features like if an item is out of stock you shouldnt be able to add it 
 
-```bash
-ng serve
-```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
